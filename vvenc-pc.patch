@@ -1,0 +1,12 @@
+--- vvenc-1.12.0/pkgconfig/libvvenc.pc.in.orig	2024-06-27 12:27:31.000000000 +0200
++++ vvenc-1.12.0/pkgconfig/libvvenc.pc.in	2024-09-15 16:40:09.892604573 +0200
+@@ -1,7 +1,7 @@
+ prefix=@CMAKE_INSTALL_PREFIX@
+ exec_prefix=@CMAKE_INSTALL_BINDIR@
+-libdir=@CMAKE_INSTALL_PREFIX@/@CMAKE_INSTALL_LIBDIR@
+-includedir=@CMAKE_INSTALL_PREFIX@/@CMAKE_INSTALL_INCLUDEDIR@
++libdir=@CMAKE_INSTALL_FULL_LIBDIR@
++includedir=@CMAKE_INSTALL_FULL_INCLUDEDIR@
+ 
+ Name: libvvenc
+ Description: Fraunhofer Versatile Video Encoder (VVenC)
