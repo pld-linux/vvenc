@@ -5,13 +5,13 @@
 Summary:	Fraunhofer Versatile Video Encoder (VVenC)
 Summary(pl.UTF-8):	VVenC - koder obrazu Fraunhofer Versatile Video
 Name:		vvenc
-Version:	1.12.0
+Version:	1.13.0
 Release:	1
 License:	BSD
 Group:		Libraries
 #Source0Download: https://github.com/fraunhoferhhi/vvenc/releases
 Source0:	https://github.com/fraunhoferhhi/vvenc/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	b0b0f7dde67b44f1e161d42a21717afe
+# Source0-md5:	f3bf8d7cc75e529c5b4412524f2619a1
 Patch0:		%{name}-pc.patch
 URL:		https://github.com/fraunhoferhhi/vvenc
 BuildRequires:	cmake >= 3.13.0
@@ -100,7 +100,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/vvencFFapp
 %attr(755,root,root) %{_bindir}/vvencapp
 %attr(755,root,root) %{_libdir}/libvvenc.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libvvenc.so.1.12
+%attr(755,root,root) %ghost %{_libdir}/libvvenc.so.1.13
 
 %files devel
 %defattr(644,root,root,755)
